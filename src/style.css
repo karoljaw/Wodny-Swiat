@@ -18,6 +18,13 @@ $secondary: #FFC137;
   max-width: 1360px;
 }
 
+.wave {
+  display: inline-block;
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
 .navbar {
   position: sticky;
   color: $secondary;
@@ -41,14 +48,15 @@ $secondary: #FFC137;
 }
 
 .logo {
-  max-height: 80vh;
+  max-height: 60vh;
+  z-index: 1;
   /* display: block;
   margin: 0 auto; */
 }
 
 .main {
   background-color: $primary;
-  height: 90vh;
+  height: 80vh;
 }
 
 .fa-phone-alt {
