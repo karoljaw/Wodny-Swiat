@@ -1,0 +1,31 @@
+{
+  "name": "wodnySwiat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karoljaw/Wodny-Swiat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karoljaw/Wodny-Swiat/issues"
+  },
+  "homepage": "https://github.com/karoljaw/Wodny-Swiat#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.1"
+  }
+}

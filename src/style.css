@@ -1,0 +1,9 @@
+$main: yellow;
+
+
+body {
+  background: $main;
+  h1 {
+    text-align: center;
+  }
+}
