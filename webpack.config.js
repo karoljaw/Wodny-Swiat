@@ -19,9 +19,15 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          {loader: 'postcss-loader', options: {plugins: postCSSPlugins}}
+          { loader: 'postcss-loader', options: { plugins: postCSSPlugins } }
         ],
       },
+      // {
+      //   test: /\.(png|svg|jpg|gif)$/,
+      //   use: [
+      //     'file-loader',
+      //   ],
+      // },
     ],
   },
   mode: "development",

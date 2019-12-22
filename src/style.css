@@ -1,9 +1,57 @@
-$main: yellow;
+$primary: #0072BA;
+$secondary: #FFC137;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
 
-body {
-  background: $main;
-  h1 {
-    text-align: center;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+.navbar {
+  position: sticky;
+  color: $secondary;
+  display: flex;
+  justify-content: center;  
+}
+
+.links {
+  list-style-type: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  
+  &__item {
+    padding: 20px;
   }
+  &__item--phone {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo {
+  max-height: 80vh;
+  /* display: block;
+  margin: 0 auto; */
+}
+
+.main {
+  background-color: $primary;
+  height: 90vh;
+}
+
+.fa-phone-alt {
+  font-size: 2em;
+  margin-right: 0.5rem;
 }
